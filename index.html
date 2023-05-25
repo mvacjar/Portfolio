@@ -16,12 +16,31 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>María Vaca Jareño | Homepage</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">María Vaca Jareño</a>
+        <a class="navbar-brand mb-0 h1 fs-1" href="index.html" title="Homepage"
+          ><img
+            src="src/images/logo.png"
+            alt="logo"
+            width="40"
+            height="40"
+            class="d-inline-block align-top"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -45,11 +64,33 @@
               <a class="nav-link" href="#">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Contact me</a>
+              <a class="nav-link">Contact me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <div class="container-fluid" id="header">
+      <div class="row">
+        <div
+          class="col-md-6 mt-5 intro d-flex flex-column justify-content-left"
+        >
+          <div class="title">
+            <h1>María Vaca Jareño</h1>
+            <h5>🇪🇸 Frontend Developer, based in Sweden 🇸🇪</h5>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div>
+            <img
+              class="img-fluid rounded float-right"
+              src="src/images/perfil.jpeg"
+              alt="perfil"
+              width="350"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
