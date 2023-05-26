@@ -40,7 +40,7 @@ h1 .habilities {
 #selfie {
   display: flex;
   justify-content: right;
-  box-shadow: 2px 2px 2px #cadffad6;
+  box-shadow: 2px 2px 4px #afc1d9cd;
   border-radius: 10px;
   width: 350px;
 }
@@ -130,12 +130,21 @@ p {
 .whatsapp-logo,
 .linkedin-logo {
   width: 60px;
+  margin: 15px 0 50px 0;
 }
 
 footer {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+}
+
+#selfie-about {
+  justify-content: center;
+  margin: 20px 0px 30px 0px;
+  box-shadow: 2px 2px 4px #afc1d9cd;
+  border-radius: 10px;
+  width: 500px;
 }
 
 @media (max-width: 576px) {
@@ -164,15 +173,15 @@ footer {
     justify-content: center;
     margin: 10px auto;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px #cadffad6;
+    box-shadow: 2px 2px 4px #afc1d9cd;
     max-width: 300px;
   }
 
-  .karate,
+  ./*karate,
   .weather,
   .salmorejo {
     display: none;
-  }
+  }*/
 
   p {
     font-size: 17px;
@@ -185,5 +194,14 @@ footer {
 
   a .primary-link {
     text-align: center;
+  }
+
+  #selfie-about {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #afc1d9cd;
+    max-width: 300px;
   }
 }
