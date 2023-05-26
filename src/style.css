@@ -22,9 +22,19 @@ body {
 }
 
 .title h1 {
-  font-family: "Playfair Display", serif;
   padding: 35px 0px 0px 0px;
   margin: 0 0 15px 0;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 .habilities {
+  margin: 0 auto;
+  padding: 30px 0 px;
 }
 
 #selfie {
@@ -33,6 +43,12 @@ body {
   box-shadow: 2px 2px 2px #cadffad6;
   border-radius: 10px;
   width: 350px;
+}
+
+.habilities-title {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
 }
 
 #logos-box {
@@ -55,22 +71,18 @@ body {
   flex-direction: column;
 }
 
+.projects-title {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 0 auto;
+}
+
 .karate,
 .weather,
 .salmorejo {
-  width: 330px;
-}
-
-.karate {
-  padding: 35px 0px;
-}
-
-.weather {
-  padding: 70px 0px;
-}
-
-.salmorejo {
-  padding: 30px 0px;
+  max-width: 350px;
+  margin: 10px auto;
 }
 
 .primary-link {
@@ -92,7 +104,7 @@ body {
 }
 
 p {
-  background: var(--secondary-color);
+  background: #e1dffe;
   padding: 20px;
   margin: 10px;
   border-radius: 4px;
@@ -105,6 +117,25 @@ p {
   text-align: center;
   font-size: 30px;
   font-family: "Playfair Display", serif;
+}
+
+.contact-title {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0 30px 0;
+  padding: 0 auto;
+}
+
+.email-me-logo,
+.whatsapp-logo,
+.linkedin-logo {
+  width: 60px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
 @media (max-width: 576px) {
@@ -120,12 +151,12 @@ p {
 
   .title h1 {
     padding: 10px 0px 0px 0px;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 0.5;
   }
 
   .title h5 {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   #selfie {
@@ -134,7 +165,7 @@ p {
     margin: 10px auto;
     border-radius: 10px;
     box-shadow: 2px 2px 2px #cadffad6;
-    max-width: 350px;
+    max-width: 300px;
   }
 
   .karate,
@@ -149,7 +180,7 @@ p {
 
   .subtitle {
     font-family: "Playfair Display", serif;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   a .primary-link {
