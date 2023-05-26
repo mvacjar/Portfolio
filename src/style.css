@@ -1,11 +1,158 @@
-#header {
-  background-color: #f7e4fb;
-  text-align: center;
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-color: #f8f9fa;
   font-family: "Poppins", sans-serif;
+}
+
+#header {
+  background-color: #e1dffe;
+  text-align: center;
   margin: 0 auto;
   padding: 40px 0px;
+  border-radius: 15px;
+}
+
+.title {
+  margin: 0px 0px 0px 30px;
 }
 
 .title h1 {
   font-family: "Playfair Display", serif;
+  padding: 35px 0px 0px 0px;
+  margin: 0 0 15px 0;
+}
+
+#selfie {
+  display: flex;
+  justify-content: right;
+  box-shadow: 2px 2px 2px #cadffad6;
+  border-radius: 10px;
+  width: 350px;
+}
+
+#logos-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.github-logo {
+  padding: 40px 0;
+}
+
+.github-logo:hover {
+  width: 95px;
+  transition: all 100ms ease;
+}
+
+.mini-logo {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.karate,
+.weather,
+.salmorejo {
+  width: 330px;
+}
+
+.karate {
+  padding: 35px 0px;
+}
+
+.weather {
+  padding: 70px 0px;
+}
+
+.salmorejo {
+  padding: 30px 0px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 1;
+  margin: 30px 0;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+}
+
+@media (max-width: 576px) {
+  #header {
+    position: relative;
+    padding: 20px 0px;
+    border-radius: 70px;
+  }
+
+  .title {
+    margin: 0 auto;
+  }
+
+  .title h1 {
+    padding: 10px 0px 0px 0px;
+    font-size: 30px;
+    line-height: 0.5;
+  }
+
+  .title h5 {
+    font-size: 15px;
+  }
+
+  #selfie {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #cadffad6;
+    max-width: 350px;
+  }
+
+  .karate,
+  .weather,
+  .salmorejo {
+    display: none;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  .subtitle {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+  }
+
+  a .primary-link {
+    text-align: center;
+  }
 }
