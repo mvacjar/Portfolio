@@ -21,6 +21,8 @@ body {
 .title {
   margin: 50px auto;
   padding: 0 0 0 30px;
+  position: flex;
+  justify-content: center;
 }
 
 .title h1 {
@@ -181,11 +183,12 @@ footer {
   #header {
     padding: 20px 0px;
     border-radius: 15px;
-    box-sizing: border-box;
   }
 
   .title {
     margin: 0 auto;
+    width: 100%;
+    box-sizing: content-box;
   }
 
   .title h1 {
