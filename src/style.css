@@ -184,6 +184,14 @@ footer {
     box-sizing: content-box;
     text-align: center;
   }
+
+  .title h1 {
+    font-size: 20px;
+  }
+
+  .title h5 {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 576px) {
