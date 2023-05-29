@@ -167,11 +167,13 @@ footer {
   width: 500px;
 }
 
-@media (min-width: 700px) {
-  .selfie-box {
-    position: grid;
-    place-content: center;
-    max-width: 500px;
+@media (min-width: 768px) {
+  .selfie {
+    display: block;
+    box-shadow: 2px 2px 4px #afc1d9cd;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
   }
 }
 
