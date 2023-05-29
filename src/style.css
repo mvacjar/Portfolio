@@ -28,6 +28,7 @@ body {
   padding: 0px;
   margin: 0 0 15px 0;
   box-sizing: content-box;
+  font-size: 35px;
 }
 
 h1 {
@@ -41,7 +42,7 @@ h1 .habilities {
 }
 
 h5 {
-  font-size: 30px;
+  font-size: 150px;
 }
 
 #selfie {
