@@ -46,11 +46,11 @@ h3 {
 }
 
 #selfie {
-  margin: 20px auto;
+  display: block;
+  margin: auto;
   box-shadow: 2px 2px 4px #afc1d9cd;
   border-radius: 10px;
   width: 350px;
-  margin: 0 auto;
 }
 
 .skills-title {
