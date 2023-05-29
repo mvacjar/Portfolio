@@ -207,8 +207,8 @@ footer {
 
 @media (max-width: 576px) {
   #header {
-    box-sizing: border-box;
-    width: 0;
+    box-sizing: content-box;
+    width: none;
     border-radius: 15px;
   }
 
