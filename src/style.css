@@ -40,8 +40,6 @@ h1 .habilities {
 }
 
 #selfie {
-  /*display: flex;
-  justify-content: right;*/
   position: grid;
   place-content: right;
   box-shadow: 2px 2px 4px #afc1d9cd;
@@ -54,40 +52,6 @@ h1 .habilities {
   display: flex;
   justify-content: center;
   margin: 30px 0px;
-}
-
-#logos-box {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-}
-
-.github-logo {
-  padding: 40px auto;
-  margin: 0 auto;
-}
-
-.github-logo:hover {
-  width: 95px;
-  transition: all 100ms ease;
-}
-
-.my-github-subtitle {
-  position: grid;
-  padding-left: 9px;
-}
-
-.mini-logo {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  gap: 40px;
-}
-.mini-subtitle {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  gap: 30px;
 }
 
 #my-github-format {
