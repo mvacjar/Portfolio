@@ -17,12 +17,11 @@ body {
   border-radius: 15px;
 }
 
-.title {
+.title-box {
   text-align: center;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  float: center;
 }
 
 .title h1 {
@@ -41,7 +40,7 @@ h3 {
   font-size: 20px;
 }
 
-#selfie {
+.selfie-box {
   display: block;
   margin: auto;
   box-shadow: 2px 2px 4px #afc1d9cd;
