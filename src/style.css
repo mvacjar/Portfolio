@@ -9,7 +9,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-#header {
+/*#header {
   background-color: #e1dffe;
   text-align: center;
   margin: 0 auto;
@@ -44,7 +44,7 @@ h3 {
   box-shadow: 2px 2px 4px #afc1d9cd;
   border-radius: 10px;
   width: 350px;
-}
+}/*/
 
 .skills-title {
   margin: 0 auto;
