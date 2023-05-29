@@ -46,8 +46,8 @@ h3 {
 }
 
 #selfie {
-  position: grid;
-  place-content: left;
+  margin: 0 auto;
+  padding: 20px 0;
   box-shadow: 2px 2px 4px #afc1d9cd;
   border-radius: 10px;
   width: 350px;
