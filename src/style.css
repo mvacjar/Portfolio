@@ -48,10 +48,10 @@ h3 {
 #selfie {
   display: block;
   position: grid;
-  place-content: right;
+  place-content: center;
   box-shadow: 2px 2px 4px #afc1d9cd;
   border-radius: 10px;
-  width: 400px;
+  width: 350px;
   margin: 0 auto;
 }
 
