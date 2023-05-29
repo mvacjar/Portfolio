@@ -19,8 +19,10 @@ body {
 
 .title {
   text-align: center;
-  margin: 0px 0 25px 0;
-  position: flex;
+  margin: 0 auto;
+  position: grid;
+  place-content: center;
+  display: flex;
   justify-content: center;
 }
 
