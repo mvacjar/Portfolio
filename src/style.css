@@ -207,9 +207,14 @@ footer {
 
 @media (max-width: 576px) {
   #header {
-    box-sizing: content-box;
-    width: none;
+    box-sizing: border-box;
+    width: 100%;
     border-radius: 15px;
+  }
+
+  .title-box {
+    box-sizing: border-box;
+    width: 100%;
   }
 
   .title {
