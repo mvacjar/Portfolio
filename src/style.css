@@ -233,6 +233,10 @@ footer {
     border-radius: 4px 120px / 90px;
     box-shadow: 2px 2px 4px #afc1d9cd;
   }
+
+  .work-inquiry-text {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -286,5 +290,9 @@ footer {
     border-radius: 10px;
     box-shadow: 2px 2px 4px #afc1d9cd;
     max-width: 350px;
+  }
+
+  .work-inquiry-text {
+    font-size: 14px;
   }
 }
