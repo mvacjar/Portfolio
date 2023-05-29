@@ -80,21 +80,33 @@
     </nav>
 
     <h1 class="skills-title">Skills</h1>
-    <div class="container-fluid" id="logos-box">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-9">
+        <div class="col-md-12" id="my-github-format">
           <a href="https://github.com/mvacjar" target="_blank"
             ><img
-              class="github-logo"
+              class="logo"
               src="src/images/github-logo.svg"
-              alt="github-logo"
+              alt="logo"
               width="100"
           /></a>
+          <div>
+            <span clas="github-title">My Github</span>
+          </div>
         </div>
-        <div class="col-2 mini-logo" id="mini-logo">
-          <i class="fa-brands fa-html5 fa-beat-fade fa-2xl"></i>
-          <i class="fa-brands fa-css3-alt fa-beat-fade fa-2xl"></i>
-          <i class="fa-brands fa-square-js fa-beat-fade fa-2xl"></i>
+        <div class="col-md-12" id="mini-logos-format">
+          <div class="col-md-1" id="mini-logos">
+            <i class="fa-brands fa-html5 fa-beat-fade fa-2xl"></i>
+          </div>
+          <div class="col-md-1" id="mini-title">HTML</div>
+          <div class="col-md-1" id="mini-logos">
+            <i class="fa-brands fa-css3-alt fa-beat-fade fa-2xl"></i>
+          </div>
+          <div class="col-md-1" id="mini-title">CSS</div>
+          <div class="col-md-1" id="mini-logos">
+            <i class="fa-brands fa-square-js fa-beat-fade fa-2xl"></i>
+          </div>
+          <div class="col-md-1" id="mini-title">JAVASCRIPT</div>
         </div>
       </div>
     </div>
@@ -127,6 +139,15 @@
       </div>
       <div class="row mt-5">
         <div class="col-md-6">
+          <div class="weather">
+            <img
+              src="src/images/weather.png"
+              class="img-fluid rounded shadow p-2 border"
+              alt="weather"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
           <div class="mb-3">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -138,15 +159,6 @@
           </div>
           <div class="mt-5 text-center">
             <a href="#" class="primary-link">Weather App</a>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="weather">
-            <img
-              src="src/images/weather.png"
-              class="img-fluid rounded shadow p-2 border"
-              alt="weather"
-            />
           </div>
         </div>
       </div>
