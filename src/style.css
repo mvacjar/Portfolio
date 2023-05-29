@@ -41,6 +41,8 @@ h3 {
 }
 
 .selfie-box {
+  position: flex;
+  justify-content: flex-start;
   box-shadow: 2px 2px 4px #afc1d9cd;
   border-radius: 10px;
   width: 350px;
