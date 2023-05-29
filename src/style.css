@@ -175,8 +175,6 @@ footer {
 
 @media (min-width: 768px) {
   .title-box {
-    box-sizing: border-box;
-    width: 100%;
     margin: 0 auto;
   }
 
@@ -194,7 +192,7 @@ footer {
     display: block;
     box-shadow: 2px 2px 4px #afc1d9cd;
     border-radius: 10px;
-    width: 500px;
+    width: 400px;
     margin: 0 0 20px 0;
   }
 }
