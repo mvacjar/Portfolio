@@ -15,10 +15,12 @@ body {
   margin: 0 auto;
   padding: 40px 0px;
   border-radius: 15px;
+  box-sizing: border-box;
 }
 
 .title {
-  margin: 0px 0px 0px 30px;
+  margin: 50px auto;
+  padding: 0 0 0 30px;
 }
 
 .title h1 {
@@ -38,11 +40,14 @@ h1 .habilities {
 }
 
 #selfie {
-  display: flex;
-  justify-content: right;
+  /*display: flex;
+  justify-content: right;*/
+  position: grid;
+  place-content: right;
   box-shadow: 2px 2px 4px #afc1d9cd;
   border-radius: 10px;
   width: 350px;
+  margin: 0 auto;
 }
 
 .skills-title {
@@ -54,10 +59,12 @@ h1 .habilities {
 #logos-box {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: row;
 }
 
 .github-logo {
-  padding: 40px 0;
+  padding: 40px auto;
+  margin: 0 auto;
 }
 
 .github-logo:hover {
@@ -65,9 +72,46 @@ h1 .habilities {
   transition: all 100ms ease;
 }
 
+.my-github-subtitle {
+  position: grid;
+  padding-left: 9px;
+}
+
 .mini-logo {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
+  gap: 40px;
+}
+.mini-subtitle {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#my-github-format {
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
+  line-height: 2.5;
+}
+
+#my-github-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#mini-logos-format {
+  display: flex;
+  justify-content: space-evenly;
+  position: grid;
+  margin: 0 auto;
+}
+
+#mini-logos {
   flex-direction: column;
 }
 
@@ -162,7 +206,8 @@ footer {
   #header {
     position: relative;
     padding: 20px 0px;
-    border-radius: 70px;
+    border-radius: 15px;
+    box-sizing: border-box;
   }
 
   .title {
@@ -188,10 +233,30 @@ footer {
     max-width: 300px;
   }
 
-  ./*karate,
-  .weather,
-  .salmorejo {
-    display: none;
+  /*#my-github-format {
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    line-height: 2.5;
+  }
+
+  #mini-logos-format {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+
+  #my-github-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #mini-logos {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    line-height: 2;
   }*/
 
   p {
