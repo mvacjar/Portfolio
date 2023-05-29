@@ -174,6 +174,11 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .title-box {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
   .title {
     margin: 0 auto;
     width: 100%;
