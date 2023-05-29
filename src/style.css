@@ -20,7 +20,7 @@ body {
 .title {
   text-align: center;
   margin: 0px 0 25px 0;
-  position: flex;
+  display: flex;
   justify-content: center;
 }
 
@@ -36,7 +36,7 @@ h1 {
   text-align: center;
 }
 
-h1 .habilities {
+h1 .skills-title {
   margin: 0 auto;
   padding: 30px 0 px;
 }
