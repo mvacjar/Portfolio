@@ -172,30 +172,6 @@ footer {
   width: 500px;
 }
 
-@media (min-width: 768px) {
-  .title-box {
-    margin: 0 auto;
-  }
-
-  .title h1 {
-    margin: 0 auto;
-    font-size: 30px;
-  }
-
-  .title h5 {
-    font-size: 15px;
-    margin: 10px 0 30px 0;
-  }
-
-  .selfie {
-    display: block;
-    box-shadow: 2px 2px 4px #afc1d9cd;
-    border-radius: 10px;
-    width: 400px;
-    margin: 0 0 20px 0;
-  }
-}
-
 @media (max-width: 576px) {
   #header {
     box-sizing: border-box;
