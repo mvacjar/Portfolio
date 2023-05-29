@@ -179,7 +179,6 @@ footer {
 
 @media (max-width: 576px) {
   #header {
-    position: relative;
     padding: 20px 0px;
     border-radius: 15px;
     box-sizing: border-box;
