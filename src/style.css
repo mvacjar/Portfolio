@@ -9,31 +9,27 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/*#header {
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+#header {
   background-color: #e1dffe;
-  text-align: center;
-  margin: 0 auto;
-  padding: 30px 0px;
-  border-radius: 15px;
+  border-radius: 4px 100px / 120px;
+  padding: 30px 0;
+  margin: 20px auto;
 }
 
 .title-box {
-  margin: 0 auto;
   display: flex;
+  text-align: center;
+  align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
-.title h1 {
-  text-align: center;
-  padding: 0px;
-  margin: 0 0 10px 0;
-  font-size: 35px;
-}
-
-h1 {
+.title-box h1 {
   font-family: "Playfair Display", serif;
-  text-align: center;
+  font-size: 50px;
 }
 
 h3 {
@@ -41,10 +37,10 @@ h3 {
 }
 
 .selfie-box {
-  box-shadow: 2px 2px 4px #afc1d9cd;
-  border-radius: 10px;
-  width: 350px;
-}/*/
+  max-width: 400px;
+  margin: 0 0 0 50px;
+  border-radius: 4px 100px / 120px;
+}
 
 .skills-title {
   margin: 0 auto;
@@ -165,58 +161,63 @@ footer {
   width: 500px;
 }
 
-@media (min-width: 768px) {
-  .title {
-    text-align: center;
-    margin: 0px 0 25px 0;
-    position: flex;
-    justify-content: center;
+@media (max-width: 912px) {
+  header {
+    border-radius: 4px 100px / 120px;
   }
 
-  .title h1 {
+  .title-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 0 25px 0;
+  }
+
+  .title-box h1 {
     text-align: center;
     padding: 0px;
     margin: 0 0 10px 0;
-    font-size: 35px;
+    font-size: 40px;
   }
 
   h3 {
     font-size: 20px;
   }
 
-  #selfie {
+  .selfie-box {
     display: block;
     margin: auto;
+    border-radius: 4px 120px / 90px;
     box-shadow: 2px 2px 4px #afc1d9cd;
-    border-radius: 10px;
-    width: 350px;
   }
 }
 
 @media (max-width: 576px) {
   #header {
-    box-sizing: border-box;
-    width: 100%;
-    border-radius: 15px;
+    border-radius: 4px 100px / 120px;
   }
 
-  .title h1 {
+  .title-box {
+    margin: 10px auto;
+  }
+
+  .title-box h1 {
     margin: 0 auto;
     padding: 0px 0px 10px 0px;
-    line-height: 0.5;
+    line-height: 1;
     font-size: 30px;
   }
 
-  .title h3 {
-    font-size: 10px;
-    margin: 0 0 20px 0;
+  .title-box h3 {
+    font-size: 15px;
+    margin: 0 auto;
   }
 
-  #selfie {
+  .selfie-box {
     display: flex;
     justify-content: center;
     margin: 10px auto;
-    border-radius: 10px;
+    border-radius: 4px 100px / 120px;
     box-shadow: 2px 2px 4px #afc1d9cd;
     max-width: 300px;
   }
@@ -240,6 +241,6 @@ footer {
     margin: 10px auto;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #afc1d9cd;
-    max-width: 300px;
+    max-width: 350px;
   }
 }
