@@ -19,7 +19,7 @@ body {
 }
 
 .title {
-  margin: 20px auto;
+  margin: 40px 0 40px 0;
   position: flex;
   justify-content: center;
 }
