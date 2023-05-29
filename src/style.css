@@ -154,6 +154,7 @@ footer {
 }
 
 #selfie-about {
+  display: flex;
   justify-content: center;
   margin: 20px 0px 30px 0px;
   box-shadow: 2px 2px 4px #afc1d9cd;
