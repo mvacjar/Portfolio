@@ -40,6 +40,7 @@ h1 .habilities {
 }
 
 #selfie {
+  display: block;
   position: grid;
   place-content: right;
   box-shadow: 2px 2px 4px #afc1d9cd;
@@ -141,7 +142,7 @@ p {
 .contact-title {
   display: flex;
   justify-content: center;
-  margin: 60px 0 30px 0;
+  margin: 80px 0 30px 0;
   padding: 0 auto;
 }
 
@@ -164,6 +165,14 @@ footer {
   box-shadow: 2px 2px 4px #afc1d9cd;
   border-radius: 10px;
   width: 500px;
+}
+
+@media (min-width: 700px) {
+  .selfie-box {
+    position: grid;
+    place-content: center;
+    max-width: 500px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -196,32 +205,6 @@ footer {
     box-shadow: 2px 2px 4px #afc1d9cd;
     max-width: 300px;
   }
-
-  /*#my-github-format {
-    align-items: center;
-    text-align: center;
-    margin: 20px auto;
-    line-height: 2.5;
-  }
-
-  #mini-logos-format {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-  }
-
-  #my-github-box {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  #mini-logos {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    line-height: 2;
-  }*/
 
   p {
     font-size: 17px;
