@@ -217,12 +217,6 @@ footer {
     width: 100%;
   }
 
-  .title {
-    margin: 0 auto;
-    width: 100%;
-    box-sizing: content-box;
-  }
-
   .title h1 {
     margin: 0 auto;
     padding: 0px 0px 20px 0px;
