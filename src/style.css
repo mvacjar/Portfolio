@@ -117,7 +117,7 @@ h3 {
   margin: 30px 0;
 }
 
-p {
+.mb-3 p {
   background: #e1dffe;
   padding: 20px;
   margin: 10px;
@@ -153,13 +153,52 @@ footer {
   flex-direction: row;
 }
 
-#selfie-about {
+#header-about {
+  background-color: #e1dffe;
+  border-radius: 4px 100px / 120px;
+  padding: 30px 0;
+  margin: 20px auto;
+}
+
+.selfie-about {
+  display: block;
+  margin: auto;
+  margin: 20px auto;
+  width: 500px;
+  border-radius: 4px 100px / 120px;
+  box-shadow: 2px 2px 4px #afc1d9cd;
+}
+
+#title-about {
+  text-align: center;
+}
+
+#text-about {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#work-inquiry-box {
+  background-color: #e1dffe;
+  border-radius: 4px 100px / 120px;
+  padding: 30px 0;
+  margin: 20px auto;
+}
+
+.work-inquiry-row {
   display: flex;
   justify-content: center;
-  margin: 20px 0px 30px 0px;
-  box-shadow: 2px 2px 4px #afc1d9cd;
-  border-radius: 10px;
-  width: 500px;
+}
+
+.work-inquiry-title {
+  font-family: "Playfair Display", serif;
+}
+
+work-inquiry-text {
 }
 
 @media (max-width: 912px) {
@@ -225,6 +264,7 @@ footer {
 
   p {
     font-size: 17px;
+    text-align: justify;
   }
 
   .subtitle {
@@ -236,7 +276,7 @@ footer {
     text-align: center;
   }
 
-  #selfie-about {
+  .selfie-about {
     display: flex;
     justify-content: center;
     margin: 10px auto;
