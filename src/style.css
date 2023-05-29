@@ -46,7 +46,6 @@ h3 {
 }
 
 #selfie {
-  display: block;
   position: grid;
   place-content: center;
   box-shadow: 2px 2px 4px #afc1d9cd;
