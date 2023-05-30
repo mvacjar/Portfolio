@@ -81,11 +81,10 @@ h3 {
   padding: 0 auto;
 }
 
-.karate,
+#porfolio,
 .weather,
 .salmorejo {
-  max-width: 350px;
-  margin: 10px auto;
+  margin: 10px 0px 0px 0px;
 }
 
 .primary-link {
@@ -145,6 +144,14 @@ h3 {
 .linkedin-logo {
   width: 40px;
   margin: 15px 0 50px 0;
+}
+
+.email-me-logo:hover,
+.whatsapp-logo:hover,
+.linkedin-logo:hover {
+  width: 36px;
+  margin: 15px 0 50px 0;
+  transition: all 200ms ease;
 }
 
 footer {
