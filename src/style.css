@@ -198,10 +198,17 @@ footer {
 
 .work-inquiry-title {
   font-family: "Playfair Display", serif;
+  font-size: 30px;
+  text-align: center;
 }
 
 .work-inquiry-text {
-  font-size: 18px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#contact-about {
+  margin: 40px auto;
 }
 
 @media (max-width: 912px) {
@@ -236,6 +243,10 @@ footer {
 
   .work-inquiry-text {
     font-size: 16px;
+  }
+
+  #contact-mywork {
+    margin: 60px 0px 20px 0px;
   }
 }
 
@@ -286,13 +297,17 @@ footer {
   .selfie-about {
     display: flex;
     justify-content: center;
-    margin: 10px auto;
+    margin: 20px auto;
     border-radius: 10px;
     box-shadow: 2px 2px 4px #afc1d9cd;
-    max-width: 350px;
+    max-width: 300px;
+  }
+
+  .work-inquiry-title {
+    font-size: 25px;
   }
 
   .work-inquiry-text {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
