@@ -36,6 +36,10 @@ h3 {
   font-size: 20px;
 }
 
+span {
+  width: 40px;
+}
+
 .selfie-box {
   max-width: 400px;
   margin: 0 0 0 50px;
